@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav_links{
+    display: flex;
+}
+
+.nav_links a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+}
+.nav_links a:hover{
+    font-weight: bold;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4173ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kesamping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ukuran {
+    width: 100%;
+}
+
+header{
+    align-items: center;
+    height: 70px;
+    background-color: aliceblue;
+    display: flex;
+    padding: 0 100px;
+    position: absolute;
+    position: sticky;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+header img{
+    margin-right: 10px;
+}
+header h1{
+    color: black;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.featured-img{
+    width: 40%;
+    object-position: center;
+    float: left;
+    margin: 20px;
+}
+
+h2{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+p{
+    font-size: 17px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: justify;
+    margin: 10px;
+    text-indent: 2em;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 50px;
+    overflow: auto;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(123, 123, 255);
+    display: flex;
+    font-weight: bold;
+    font-size: 23px;
+ }
+ footer img{
+    margin-left: 5px;
+
+ }
+td{
+    text-align: center;
+}
+
+/* Jumbotron */
+.container-fluid{
+    width: 100%;
+}
+
+.jumbotron{
+    background-image: url(bg_BMKG1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    height: 580px;
+    margin-bottom: 50px;
+}
+
+h4{
+    font-size: 19px;
+    text-indent: 1em;
+    margin-top: 20px;
+}
+.log-img{
+    width: 30%;
+    margin-left: 20px;
+}
+
+/* Data Tabel */
+.Data h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.Data img{
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
